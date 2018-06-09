@@ -1,1 +1,29 @@
-﻿
+﻿body { 
+    background: url("https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?cs=srgb&dl=architecture-buildings-business-374870.jpg&fm=jpg") no-repeat fixed center/cover; 
+}
+
+.container {
+	display: inline-block;
+	margin: 30px;
+	padding: 15px;
+	min-width:200px;
+	background-color: rgb(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 5px #aaa;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.main {
+	margin: 0 auto;
+	max-width: 70%;
+}
+.city, .temp {
+	font-size: 30px;
+	margin: 10px auto;
+}
+a:link,a:visited {
+	color: #fff;
+	font-size: 14px;
+}
+
